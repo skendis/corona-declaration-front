@@ -1,5 +1,5 @@
 # CoronaDeclarationFront
-
+![CI](https://github.com/skendis/corona-declaration-front/workflows/CI/badge.svg)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 ## Development server
