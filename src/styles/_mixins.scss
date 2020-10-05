@@ -1,0 +1,6 @@
+/* Mixins */
+@mixin ltr{
+  [dir="ltr"] & {
+    @content
+  }
+}
