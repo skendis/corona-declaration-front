@@ -1,1 +1,16 @@
-<p>person-list works!</p>
+<section class="persons-list">
+
+  <div class="persons-position">
+    <div class="person-cubes">
+      <div class="person-cube" *ngFor="let person of persons">
+        <img *ngIf="person.gender === 'male'" src="./assets/boy.svg" alt="">
+        <img *ngIf="person.gender === 'female'" src="./assets/girl.svg" alt="">
+        <div class="name">
+        {{person.firstName}} {{person.lastName}}
+        </div>
+        <div class="birthDate"> {{person.birthDate}}</div>
+        <div class="birthDate"> {{person.parentFirstNameOne}} {{person.parentLastNameOne}}</div>
+      </div>
+    </div>
+  </div>
+</section>
