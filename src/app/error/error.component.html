@@ -1,0 +1,5 @@
+<div class="error-component" *ngIf="error">
+  <ng-lottie [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
+  <span role="alert" class="text">{{error}}</span>
+</div>
+

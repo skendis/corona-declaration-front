@@ -1,0 +1,22 @@
+@import "variables";
+.error-component{
+  display: flex;
+  height: 90px;
+  align-items: center;
+  .text{
+    height: 100%;
+    background-color: $danger;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 10px;
+  }
+  ng-lottie{
+    height: 100%;
+    width: 90px;
+  }
+}

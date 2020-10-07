@@ -1,0 +1,9 @@
+.spinner-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  ng-lottie{
+    height: 100%;
+  }
+}
